@@ -8,7 +8,7 @@
       <link href="/2021/09/03/py1/"/>
       <url>/2021/09/03/py1/</url>
       
-        <content type="html"><![CDATA[<h1 id="for循环"><a href="#for循环" class="headerlink" title="for循环"></a>for循环</h1><p>for i in 循环体<br>使用如下代码打印10以内所有素数</p><pre><code class="python">for i in range(2,10):    for x in range(2,i):        if i % x==0:            print(i,&#39;/&#39;,x,&quot;=&quot;,i/x,sep=&#39;&#39;)            break        else:            print(i,&quot;是素数。&quot;)···</code></pre>]]></content>
+        <content type="html"><![CDATA[<h1 id="for循环"><a href="#for循环" class="headerlink" title="for循环"></a>for循环</h1><p>for i in 循环体<br>使用如下代码打印10以内所有素数</p><pre><code class="python">for i in range(2,10):    for x in range(2,i):        if i % x==0:            print(i,&#39;/&#39;,x,&quot;=&quot;,i/x,sep=&#39;&#39;)            break        else:            print(i,&quot;是素数。&quot;)···#len函数len函数可以输出某个序列(字符串，列表)的长度# 列表列表可用于储存多个不同类型的循环体```pythonlist=[数据1，数据2，数据3]#可用下标法取出某个数据list[0]#第一个数据list[-1]#第二个数据list[开始值(默认为0)：结束值，步进值]list[::-1]#可反顺序取出数据list[:5]#第六个数据之前的所有数据list[1:]#第二个数据之后的所有数据</code></pre>]]></content>
       
       
       <categories>
